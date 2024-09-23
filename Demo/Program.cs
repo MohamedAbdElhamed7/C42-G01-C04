@@ -182,6 +182,44 @@
             //Console.WriteLine(Message);
 
             #endregion
+
+            #region Video6 (one D Array)
+            ////ways of creation array 
+            //int[] Number02 = new int[3] { 1, 2, 3 };
+            //int[] Number03 = new int[] { 1, 2, 3 };
+            //int[] Number04 =  {1, 2, 3 };
+
+            //int[] Number05;
+            //Number05 =  { 1,2,3,4}; //invalid
+            //Number05 = new int[] { 1, 2, 3, 4 }; // Valid 
+
+            //Console.WriteLine($"Size of array = {Numbers.Length}");//3
+            //Console.WriteLine($"Deminsions of array = {Numbers.Rank}");//1
+
+            //Print Elements in "Array" :-
+            //--------------------------
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            ////Console.WriteLine(Numbers); //System.Int32[] // Invalid
+
+            //for (int i = 0; i < Numbers.Length; i++) 
+            //{
+            //    Console.Write($"{Numbers[i]} ");
+            //} 
+
+            //Numbers[9] = 100;
+            //Console.WriteLine(Numbers[9]);
+
+            ////Numbers[10] = 1000; // Invalid //System.IndexOutOfRangeException // array is Fixed
+            ///
+
+            //TaKE VALUES of array from user :-
+            //int[] Numbers = new int[10];
+            //for (int i = 0; i < Numbers.Length; i++) 
+            //{
+            //    Console.WriteLine($"Enter Number of Index = {i}");
+            //    Numbers[i] = int.Parse( Console.ReadLine() );  
+            //}
+            #endregion
         }
     }
 }
