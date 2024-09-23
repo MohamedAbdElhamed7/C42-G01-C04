@@ -220,6 +220,59 @@
             //    Numbers[i] = int.Parse( Console.ReadLine() );  
             //}
             #endregion
+
+            #region Video7 (Two D Array)
+
+            //int[,] marks = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 10, 20, 30, 40, 50 }, { 100, 200, 300, 400, 500 } };
+            ////ClR will allocate Required bytes at heap [15*4] 60 Bytes 
+            ////Initialize allocate Bytes with deafult value at heap => 0
+
+
+            //Console.WriteLine($"Size of array = {marks.Length}");//15
+            //Console.WriteLine($"Deminsions of array = {marks.Rank}");//2
+            //Console.WriteLine($"Size of array = {marks.GetLength(0)}");//Rows =3
+            //Console.WriteLine($"Size of array = {marks.GetLength(1)}");// Columns = 5
+
+
+
+            //Printing 2DArray:-
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Marks OF Stud No ({i + 1})");
+            //    for (int j = 0; j < marks.GetLength(1); j++)
+            //    {
+            //        Console.Write($"Marks of sub No({j + 1}) = ");
+            //        Console.WriteLine(marks[i, j]);
+            //    }
+            //}
+
+
+            //Read from user 2D array:-
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter Marks OF Stud No ({i + 1})");
+            //    for (int j = 0; j < marks.GetLength(1); j++)
+            //    {
+            //        Console.Write($"ENTER Marks of sub No({j + 1}) = ");
+            //        marks[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //to make code protective 
+            //bool Flag; 
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter Marks OF Stud No ({i + 1})");
+            //    for (int j = 0; j < marks.GetLength(1); )
+            //    {
+            //        Console.Write($"ENTER Marks of sub No({j + 1}) = ");
+            //        Flag = int.TryParse(Console.ReadLine() , out marks[i,j]);
+
+            //        if (Flag && marks[i, j] >= 0)
+            //            j++;
+            //    }
+            //} 
+            #endregion
         }
     }
 }
