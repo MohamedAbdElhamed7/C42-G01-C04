@@ -74,6 +74,37 @@
             //Console.WriteLine($"{x} is an odd number "); 
 
             #endregion
+
+            #region Video4 (String)
+            //String :-
+            //String is a reference datatype , work as value type 
+            //String is immutable Datetype [value can't be changed ]
+            //internally is an array of char 
+
+            //String Name ;
+            //Declare For Reference from type of string 
+            //CLR will Allocate 4 Bytes at  stack for Reference "Name"
+            //This Reference "Name" is Referening To Deafult value of refernce type = null
+
+            // Name = new string ("Aliaa")
+            //ClR will allocate require bytes at heap [10 bytes ]
+            //Initialize allocate bytes with deafult value of char ''
+            //call user defined constractor ("Aliaa") To iniztialize object
+            //assign refence to allocate object
+
+            // Name ="Aliaa " => Syntax Sugar 
+            // Name = new string ("Aliaa") , Name ="Aliaa " both are same meaning 
+
+            //string name01 = "Big Mido ";
+            //string name02 = "Big Mido ";
+            //Console.WriteLine($"name01 : {name01}"); //Big Mido
+            //Console.WriteLine($"name01 Hc : {name01.GetHashCode()}"); //1754719144
+
+            //Console.WriteLine($"name02 : {name02}"); //Big Mido
+            //Console.WriteLine($"name02 Hc : {name02.GetHashCode()}"); //1754719144
+
+            //Name01 , Name02 both of them Has same address[object] due to LdStr[Load String] 
+            #endregion
         }
     }
 }
