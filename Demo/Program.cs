@@ -49,6 +49,31 @@
             //        Console.WriteLine(Number);
             //    }
             #endregion
+
+            #region Video3 (loop pt3)
+            //Do While :-
+            //int Number;
+            //bool Flag;
+            //do 
+            //{
+            //    Console.Write("Enter an Even Number : ");
+            //    //Number = int.parse(Console.WriteLine());
+            //    Flag = int.TryParse(Console.ReadLine() , out Number); 
+            //}while (Number % 2 == 1 || !Flag);
+
+            //Console.Write($"{Number} is Even Number  ");
+
+            //  While :-
+            //int x = 2;
+            //bool Flag = true;
+            //while (x % 2 == 0 || !Flag)
+            //{
+            //    Console.WriteLine("Sorry Ur Number is even , plz Enter an odd Nu "); 
+            //    Flag = int.TryParse(Console.ReadLine(), out x);
+            //}
+            //Console.WriteLine($"{x} is an odd number "); 
+
+            #endregion
         }
     }
 }
