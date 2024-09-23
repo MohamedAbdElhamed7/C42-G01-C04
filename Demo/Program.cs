@@ -24,6 +24,31 @@
             //}
 
             #endregion
+
+            #region video2 (loop pt2)
+            // for - for each
+
+            // int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10 };
+            //For: -
+            // for (int i = 0; i < Numbers.Length; i++)
+            //   {
+            //      if (int == 2)
+            //      {
+            //           break;
+            //      }
+            //       Numbers[i] += 10;
+            //       Console.WriteLine(Numbers[i]);
+            //    }
+
+            //    For each :-
+            //    Datatypes must be class Implemnt Interface Ienumerable
+
+            //    foreach (int Number in Numbers)
+            //    {
+            //        Number += 10;  //invalid
+            //        Console.WriteLine(Number);
+            //    }
+            #endregion
         }
     }
 }
