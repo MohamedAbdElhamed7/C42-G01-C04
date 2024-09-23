@@ -293,6 +293,28 @@
             //4
 
             #endregion
+
+            #region Video9 (judjet array)
+            //judjet array 
+            //it is an array of arrays 
+
+            //int[][] Numbers = new int[3][];
+
+            //Numbers[0] = new int[] { 1, 2, 3, 4, 5 };
+            //Numbers[1] = new int[] { 9, 10 };
+            //Numbers[2] = new int[] { 7, 8, 20, 30 };
+
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{ 
+            //    for (int j = 0; j < Numbers[i].Length; j++) 
+            //        Console.WriteLine(Numbers[i][j]);
+            //    Console.WriteLine("---------");
+
+            //}
+            //#endregion
+
+            #endregion
         }
     }
 }
