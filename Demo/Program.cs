@@ -105,6 +105,83 @@
 
             //Name01 , Name02 both of them Has same address[object] due to LdStr[Load String] 
             #endregion
+
+            #region Video5 (StringBuilder)
+            // String Builder :-
+            //is reference type
+            //is Mutable Data Type [Value Can be changed ]
+            //internally linked list of chars
+
+            //StringBuilder Message;
+            //Decalre For reference from type of string 
+            // ClR will allocate 4 Bytes At stack  For reference "Message"
+            //Zero bytes allocates at heap 
+            // this deafault value of reference type => Null
+
+            //Messsage = new string builder ("Hello")
+            //ClR will allocate require bytes at heap [10 bytes ]
+            //Initialize allocate bytes with deafult value of char ''
+            //call user defined constractor ("Hello") To iniztialize object
+            //assign refence to allocate object
+
+            //Message = "Hello" // invalid bec. it syntax sugar for string 
+
+            //Ex. stringBuilder
+            //StringBuilder Message;
+            //Message = new StringBuilder ("Hello");
+
+            //Console.WriteLine($"Message = {Message}");
+            //Console.WriteLine($"Message HC = {Message.GetHashCode()}");
+
+            //Message += "Route" //Invalid
+
+            //Message.Append("Route");
+            //Console.WriteLine($"Message = {Message}");
+            //Console.WriteLine($"Message HC = {Message.GetHashCode()}");
+
+            // It will have same HashCode Bec. it stringbuilder is mutable value can be changed 
+
+            //Methods
+            //StringBuilder Message = new StringBuilder("Hello");
+
+            //Message.Append(" To");  
+            //Console.WriteLine(Message); // Hello To
+
+            //Message.AppendLine(" Route");
+            //Console.WriteLine(Message);  //Hello To Route
+
+            //Message.Append("Welcome To Aliaa");
+            //Console.WriteLine(Message);
+            ////Hello To Route
+            ////Wlecome Aliaa
+
+            //Message.Remove(0, 6);
+            //Console.WriteLine(Message);
+            //// To Route
+            ////Wlecome Aliaa
+
+            //Message.Insert(0, "Hi ");
+            //Console.WriteLine(Message);
+            ////Hi To Route
+            ////Wlecome Aliaa
+
+            //Console.WriteLine("");
+
+            ////Hi Amr , your Age is 30
+            //String Name = "Amr";
+            //int Age = 30;
+            //Message.AppendFormat(" Hi {0} , your Age is {1}" , Name , Age);
+            //Console.WriteLine(Message);
+            ////Hi To Route
+            ////Wlecome Aliaa
+            ////Hi Amr , your Age is 30
+
+            //Console.WriteLine("\n");
+
+            //Message.AppendJoin('/', " Aliaa", "samy", "amr", "mohab", 2);
+            //Console.WriteLine(Message);
+
+            #endregion
         }
     }
 }
