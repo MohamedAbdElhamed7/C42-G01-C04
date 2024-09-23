@@ -273,6 +273,26 @@
             //    }
             //} 
             #endregion
+
+            #region Video8 (iterate 2D Array by one loop)
+            //Printing 2D array with one loop 
+            //int[,] marks = new int[2, 4] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+
+            //for (int i = 0; i < marks.Length; i++)
+            //{
+            //    Console.WriteLine(marks[i / marks.GetLength(1), i % marks.GetLength(1)]);
+            //}
+
+
+            //   i/4       i%4
+            //i  Row     Columns
+            //0    0         0
+            //1    0         1
+            //2    0         2
+            //3    0         3
+            //4
+
+            #endregion
         }
     }
 }
