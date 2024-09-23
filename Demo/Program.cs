@@ -315,6 +315,35 @@
             //#endregion
 
             #endregion
+
+            #region Video10 (Array Methods)
+            //int[] numbers = { 9, 6, 5, 4, 3, 2, 1, 8, 7 };
+
+            ////Static Methods :-
+
+            //Array.Sort(numbers); //Ascending
+
+            //Array.Reverse(numbers);
+
+            //Array.Clear(numbers);//all values in aaray equals zero
+
+            //int[] arr01 = { 1, 2, 3 };
+            //int[] arr02 = new int[5];
+
+            //Array.Copy(arr01, arr02, 2);
+
+            //Array.ConstrainedCopy(arr01, 1, arr02, 1, 2);
+
+
+
+
+            //for (int i = 0; i < numbers.Length; i++) 
+            //{
+            //       Console.Write($"{numbers[i]} ");
+            //} 
+
+
+            #endregion
         }
     }
 }
