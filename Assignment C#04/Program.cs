@@ -384,6 +384,16 @@
             //}
 
             #endregion
+
+            #region Q19
+            //Q19.19- Write a Program to Print One Dimensional Array in Reverse Order
+
+            //int[] Arr = { 1, 2, 3, 4, 5 };
+
+            //for(int i=Arr.Length-1; i>=0; i--)
+            //    Console.WriteLine(Arr[i]);
+
+            #endregion
         }
     }
 }
