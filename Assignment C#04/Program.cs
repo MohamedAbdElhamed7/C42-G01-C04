@@ -254,6 +254,30 @@
 
 
             #endregion
+
+            #region Q14
+            //14- Write a program in C# Sharp to count the frequency of each element of an array.
+            //int[] arr = [0, 1, 2, 1, 3, 4, 3, 2,  0];
+
+            //int size = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //    size = Math.Max(size, arr[i]);  
+
+            //int[] freq = new int[size + 1];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //    freq[arr[i]]++;
+
+            //for (int i = 0; i <= size; i++)
+            //{
+            //    if (freq[i] > 0)
+            //    {
+            //        Console.WriteLine($"the Number {i} has freq = {freq[i]}";
+            //    }
+
+            //}
+            //}
+            #endregion
         }
     }
 }
