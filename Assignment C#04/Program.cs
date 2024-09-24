@@ -148,6 +148,22 @@
             //}
             #endregion
 
+            #region Qusetion 10
+            //10- Write C# program that take two string variables and print them as one variable 
+
+            //Console.Writeline("Enter The Frist String : ")
+            //string s1 = Console.ReadLine();
+            //Console.Write("Enter The secound String : ")
+            //string s2 = Console.ReadLine();
+
+            //Console.WriteLine(s1 + s2);
+
+            //string s3 = s1 + s2;
+
+            //Console.WriteLine(s3);
+
+            #endregion
+
         }
     }
 }
