@@ -164,6 +164,32 @@
 
             #endregion
 
+            #region Question 11
+            // Write a program that prints an identity matrix using for loop, in other words takes a
+            // value n from the user and shows the identity table of size n * n.
+            // 1 0 0 0
+            // 0 1 0 0
+            // 0 0 1 0
+            // 0 0 0 1
+
+            //Console.Write("Enter The Number: ");
+            //int Number = int.Parse(Console.ReadLine());
+
+            //for(int i = 0; i < Number; i++)
+            //{
+            //    for(int j = 0; j < Number; j++)
+            //    {
+            //        if(i == j)
+            //        {
+            //            Console.Write(1);
+            //            continue;
+            //        }
+            //        Console.Write(0);
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+
         }
     }
 }
