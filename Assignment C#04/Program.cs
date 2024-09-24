@@ -202,6 +202,58 @@
             //Console.WriteLine(sum);
 
             #endregion
+
+            #region Q13
+            //13- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            //int[] Arr1 = { 1, 4, 7 };
+            //int[] Arr2 = { 2, 3, 5 };
+
+            //int[] Result = new int[Arr1.Length * 2];
+
+            //int n = Arr1.Length;
+
+            //int l = 0;
+            //int r = 0;s
+
+            //int i = 0;
+
+            //while (l < n && r < n)
+            //{
+            //    if (Arr1[l] <= Arr2[r])
+            //    {
+            //        Result[i] = Arr1[l];
+            //        l++;
+            //    }
+            //    else
+            //    {
+            //        Result[i] = Arr2[r];
+            //        r++;
+            //    }
+            //    i++;
+            //}
+
+            //while (l < n)
+            //{
+            //    Result[i] = Arr1[l];
+            //    l++;
+            //    i++;
+            //}
+
+            //while (r < n)
+            //{
+            //    Result[i] = Arr2[r];
+            //    r++;
+            //    i++;
+            //}
+
+            //for (int j = 0; j < Result.Length; j++)
+            //{
+            //    Console.Write($"{Result[j]} ");
+            //}
+
+
+            #endregion
         }
     }
 }
