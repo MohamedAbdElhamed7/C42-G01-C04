@@ -316,6 +316,39 @@
             //Console.WriteLine($"maximum nu = {max}");
             //Console.WriteLine($"maximum nu = {min}");
             #endregion
+
+            #region Q17
+            //write a program to to find the longest distance between Two equal cells.
+            //. The distance is measured by the number Of cells- 
+            //- Array values will be taken from the user
+
+
+            //int[] arr = new int [10];    
+            //for(int i=0; i<arr.Length; i++)
+            //{
+            //    Console.WriteLine($"plz enter element of array nu {i+1}");
+            //    arr[i] = int.Parse( Console.ReadLine() );
+            //}
+
+            //int MaxDis = 0; 
+
+            //for(int i=0; i<arr.Length; i++)
+            //{
+            //    for (int j = arr.Length - 1; j >= 0; j--)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            if (MaxDis < j - i - 1)
+            //            {
+            //                MaxDis = j - i - 1;
+            //                break;
+            //            }
+            //        }
+            //    }
+
+            //}
+            //    Console.WriteLine($"max dis is {MaxDis}");
+            #endregion
         }
     }
 }
