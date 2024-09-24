@@ -278,6 +278,25 @@
             //}
             //}
             #endregion
+
+            #region Q15
+            //15- Write a program in C# Sharp to find the maximum and minimum element in an array
+            //int[] arr = [0, 1, 2, 1, 3, 4, 3, 2, 0];
+            //int max = int.MaxValue;
+            //int min= int.MinValue;  
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i]> max)
+            //        max = arr[i]; 
+
+            //    if (arr[i]> min)
+            //        min = arr[i];   
+            //}
+
+            //Console.WriteLine($"maximum nu = {max}");
+            //Console.WriteLine($"maximum nu = {min}");
+            #endregion
         }
     }
 }
