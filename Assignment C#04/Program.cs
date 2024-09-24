@@ -25,6 +25,21 @@
 
             #endregion
 
+            #region Question 2
+            //2- Write a program that allows the user to insert an integer then 
+            //print a multiplication table up to 12.
+            //int Number;
+            //bool flag;
+            //do 
+            //{
+            //    Console.WriteLine("enter an a number ");
+            //    flag = int.TryParse(Console.ReadLine(), out Number);
+            //    for (int i = 1; i <= 12; i++)
+            //        Console.Write($"{Number * i} ");
+            //}while (!flag);
+
+
+            #endregion
 
         }
     }
