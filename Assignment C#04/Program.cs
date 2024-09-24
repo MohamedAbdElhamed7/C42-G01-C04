@@ -349,6 +349,41 @@
             //}
             //    Console.WriteLine($"max dis is {MaxDis}");
             #endregion
+
+            #region Q18
+            //18 - Write a program to create two multidimensional arrays of same size.
+            //Accept values from user and store them in first array.
+            //Now copy all the elements of first array on second array and print second array.
+
+
+            //Console.Write("Enter the size of the array: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[,] Arr1 = new int[n, n];
+            //int[,] Arr2 = new int[n, n];
+
+            //for(int i=0; i<Arr1.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < Arr1.GetLength(1); j++)
+            //        Arr1[i, j] = int.Parse(Console.ReadLine());
+
+            //}
+
+
+            // for(int i=0; i<Arr2.GetLength(0); i++)
+            //{
+            //    for(int j = 0; j< Arr2.GetLength(1); j++) 
+            //        Arr2[i,j] = Arr1[i,j];
+            //}
+
+
+            //for (int i = 0; i < Arr2.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < Arr2.GetLength(1); j++)
+            //        Console.WriteLine(Arr2[i, j]);
+            //}
+
+            #endregion
         }
     }
 }
