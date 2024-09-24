@@ -90,6 +90,22 @@
 
             #endregion
 
+            #region Question 6
+            //6 - Write a program in C# Sharp to find prime numbers within a range of numbers.
+
+            //Console.WriteLine("Enter starting number in range");
+            //int start = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter ending number in range");
+            //int end = int.Parse(Console.ReadLine());
+
+            //for (int i = start; i < end; i++) 
+            //{
+            //    if (i % 2 != 0)
+            //        Console.Write($"{i} ");
+            //}
+            #endregion
+
         }
     }
 }
