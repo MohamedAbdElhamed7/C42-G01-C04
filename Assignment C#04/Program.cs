@@ -57,6 +57,22 @@
 
             #endregion
 
+            #region Question 4
+            //Write a program that takes two integers then prints the power.
+
+            //Console.Write("Enter The Number: ");
+            //int Num1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter The Second Number: ");
+            //int Num2 = int.Parse(Console.ReadLine());
+
+            //int ans = 1;
+            //if (Num2 > 0)
+            //    for (int i = 1; i <= Num2; i++)
+            //        ans *= Num1;
+            //Console.Write(ans);
+            #endregion
+
         }
     }
 }
