@@ -41,6 +41,22 @@
 
             #endregion
 
+            #region Question 3
+            //3- Write a program that allows to user to insert number then
+            ////print all even numbers between 1 to this number
+
+            //int number;
+            //Console.WriteLine("Enter a number plz");
+            //number = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= number; i++) 
+            //{
+            //    if (i % 2 == 0)
+            //        Console.Write($"{i} ");
+            //}
+
+
+            #endregion
+
         }
     }
 }
