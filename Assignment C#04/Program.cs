@@ -190,6 +190,18 @@
             //}
             #endregion
 
+            #region Question 12
+            //12- Write a program in C# Sharp to find the sum of all elements of the array.
+
+            //int[] Arr = { 10, 20, 30, 40 };
+
+            //int sum=0;
+            //for(int i=0; i<Arr.Length; i++ )
+            //    sum += Arr[i];
+
+            //Console.WriteLine(sum);
+
+            #endregion
         }
     }
 }
